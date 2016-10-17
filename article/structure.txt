@@ -1,22 +1,22 @@
-abstract
+5. abstract
      what are we going talk about and which concepts the reader needs to know
 
-introduction
-     how is the internet implemented nowadays and what would an ICN implementation imply
+6. introduction
+     how is the internet implemented nowadays and what would an ICN implementation imply or solve to the community
      
-how it works
+1. how it works
      requirements
 
-what have been implemented (now and then)
+2. what have been implemented (now and then)
      what tests were made
      will it succeed and why
      what network technologies will be used
      
-the future of the internet: is ICN worth the change
+3. the future of the internet: is ICN worth the change
     what do we need to change to implement ICN
     will the cost to implement ICN be worth the investement and what are the advantages of doing it
 
-conclusions
+4. conclusions
     what can we say about the evolution of the internet and how will ICN impact the internet or not
     is ICN worth in short or long term
 
