@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2016/Arch Linux)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: icn.aux
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated wiz_functions (elt_size=8) to 6000 items from 3000.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Database file #1: icn.bib
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty author in icn
+
+Done.
+You've used 3 entries,
+            4087 wiz_defined-function locations,
+            837 strings with 7607 characters,
+and the built_in function-call counts, 2106 in all, are:
+= -- 164
+> -- 42
+< -- 17
++ -- 19
+- -- 7
+* -- 115
+:= -- 334
+add.period$ -- 6
+call.type$ -- 3
+change.case$ -- 3
+chr.to.int$ -- 33
+cite$ -- 4
+duplicate$ -- 153
+empty$ -- 158
+format.name$ -- 9
+if$ -- 471
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 27
+newline$ -- 32
+num.names$ -- 2
+pop$ -- 63
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 152
+stack$ -- 0
+substring$ -- 81
+swap$ -- 128
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 3
+warning$ -- 1
+while$ -- 8
+width$ -- 4
+write$ -- 50
+(There was 1 warning)

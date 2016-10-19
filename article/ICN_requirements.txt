@@ -1,0 +1,9 @@
+1- Scalable and efficient content distribution
+   tremendous traffic increase led to content dissemination moving to a information-centric model, mostly CDN's and P2P networking
+2- Persistent, location-independent naming
+   lack of a naming scheme for content which complicates efficient network utilization and caching
+3- Data availability
+4- Security
+   today's security is host-centric. to address this problem we have to use separately published fingerprints of the data like MD5. the current model does not provide ubiquitous caching while retaining data integraty and authenticity
+5- Mobility and multihoming
+   requires managing end-to-end data flows and choosing which path and/or interface to use. a solution was the mobile IP but the increased stretch and complexity of the implementation are the main disadvantages due to the host-centric approach.
