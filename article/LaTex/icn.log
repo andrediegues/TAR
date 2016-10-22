@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.9.6)  22 OCT 2016 19:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.9.6)  22 OCT 2016 22:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -301,13 +301,7 @@ Package pdftex.def Info: dona.png used on input line 68.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Missing character: There is no â in font ptmri7t!
-Missing character: There is no € in font ptmri7t!
-Missing character: There is no ¢ in font ptmri7t!
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-
-]
 Underfull \hbox (badness 3884) in paragraph at lines 76--78
 []\OT1/ptm/m/n/10 Esta ar-quite-tura sub-sti-tui com-ple-ta-mente a \OT1/ptm/m/
 it/10 stack \OT1/ptm/m/n/10 do
@@ -318,7 +312,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--78
 
  []
 
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
+
+]
 Underfull \hbox (badness 2126) in paragraph at lines 79--80
 []\OT1/ptm/m/n/10 A resolu[][]ao de nomes no \OT1/ptm/m/it/10 PUR-SUIT []\OT1/p
 tm/m/n/10 e tratada pela
@@ -361,42 +358,129 @@ File: ndn.png Graphic file (type png)
 Package pdftex.def Info: ndn.png used on input line 144.
 (pdftex.def)             Requested size: 180.67499pt x 150.81404pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
  []
 
 
-Underfull \hbox (badness 5771) in paragraph at lines 159--160
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
+
+ []
+
+[2 <./dona.png (PNG copy)> <./pursuit.png (PNG copy)> <./ndn.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
+
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 164--165
+[]\OT1/ptm/m/n/10 Como a rede pode ver quem faz o pe-dido pela
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ‰ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
+
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 184--185
+\OT1/ptm/m/n/10 tend[]encia a au-men-tar, o tamanho das tabelas de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
+
+ []
+
+
+Underfull \hbox (badness 5771) in paragraph at lines 196--197
 []\OT1/ptm/m/n/10 O pres-su-posto b[]asico por tr[]as do ICN []e que a
  []
 
 
-Underfull \hbox (badness 2941) in paragraph at lines 159--160
+Underfull \hbox (badness 2941) in paragraph at lines 196--197
 \OT1/ptm/m/n/10 in-de-pen-den-te-mente da sua localiza[][]ao. Uma implica[][]ao
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
-
- []
-
-[2 <./dona.png (PNG copy)> <./pursuit.png (PNG copy)> <./ndn.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+Underfull \hbox (badness 10000) in paragraph at lines 198--199
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
 
  []
 
-(./icn.bbl)
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
+
+ []
+
+(./icn.bbl [3])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -408,7 +492,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3
+[4
 
 ] (./icn.aux)
 
@@ -416,11 +500,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2435 strings out of 493013
- 39090 string characters out of 6139318
- 109067 words of memory out of 5000000
+ 2437 strings out of 493013
+ 39103 string characters out of 6139318
+ 111067 words of memory out of 5000000
  5974 multiletter control sequences out of 15000+600000
- 34143 words of font info for 63 fonts, out of 8000000 for 9000
+ 36346 words of font info for 65 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  40i,10n,25p,1087b,238s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
@@ -428,10 +512,10 @@ ts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/urw/ti
 mes/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/s
 hare/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on icn.pdf (3 pages, 474189 bytes).
+Output written on icn.pdf (4 pages, 478787 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 41 PDF objects out of 1000 (max. 8388607)
+ 26 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -71,7 +71,7 @@ A resolu\c{c}\~{a}o de nomes no DONA\cite{dona} \'{e} da responsabilidade de uns
 \end{figure}
 
 %'''PURSUIT (FP7 PURSUIT project. [Online]. Available: http://www.fp7-pursuit.eu/PursuitWeb/)'''[[Image:|top]]
-\subsection{•}{PURSUIT}
+\subsection{PURSUIT}
 
 Esta arquitetura substitui completamente a \textit{stack} do protocolo IP por uma \textit{stack} do protocolo \textit{publish-subscribe}. Consiste em tr\^{e}s fun\c{c}\~{o}es distintas: \textit{rendezvous}, \textit{topology management} e \textit{forwarding}.
 Quando o \textit{rendezvous} encontra a subscri\c{c}\~{a}o de uma publica\c{c}\~{a}o, direciona a fun\c{c}\~{a}o de gest\~{a}o da topologia para criar uma rota entre o \textit{Publisher} e o \textit{Subscriber}. Esta rota \'{e} usada pela fun\c{c}\~{a}o de encaminhamento para realizar a transfer\^{e}ncia de dados.\\
@@ -145,12 +145,49 @@ O FIB mapeia informa\c{c}\~{a}o para as interfaces de sa\'{i}da que devem ser us
 \caption{NDN implementation.}
 \label{dona}
 \end{figure}
-\section{Quais os obst\'{a}culos e custos de implementar ICN?}
+
+\section{Quais os obst\'{a}culos e custos de implementa\c{c}\~{a}o o ICN?}
 
 \subsection{Requisitos}
 
-Uma rede em ICN tem de corresponder a requisitos b\'{a}sicos de modo a ser vi\'{a}vel a sua utiliza\c{c}\~{a}o:
+O ICN ainda est\'{a} longe de estar pronto a ser implementado. Os \textit{researchers} t\^{e}m lidado com v\'{a}rios desafios para tornarem este novo modelo dispon\'{i}vel para poder ser colocado ao servi\c{c}o dos utilizadores. Entre os desafios que t\^{e}m encontrado destacam-se:\\
 
+\begin{enumerate}
+
+
+\item \textbf{\textit{Naming} dos dados}\\
+
+Dar nomes aos dados \'{e} t\~{a}o importante para o ICN como dar nomes aos \textit{hosts} \'{e} para a Internet de hoje. Sendo assim, o ICN requer nomes \'{u}nicos para os \textit{Named Data Objects} (NDOs), j\'{a} que os nomes s\~{a}o utilizados para identificar objetos independentemente da sua localiza\c{c}\~{a}o ou conte\'{u}do. Usar tabelas de \textit{hash} \'{e} uma forma poss\'{i}vel de resolver este imbr\'{o}glio, j\'{a} que permite depois que se possa comparar isso com o pr\'{o}prio nome do componente.\\
+
+\item \textbf{Prote\c{c}\~{a}o da privacidade}\\
+
+Como a rede pode ver quem faz o pedido pela informa\c{c}\~{a}o e j\'{a} que a tend\^{e}ncia do ICN \'{e} guardar a hist\'{o}ria dos utilizadores, torna-se um problema para o utilizador n\~{a}o ter garantias de privacidade, j\'{a} que como os nomes devem ter um longo tempo de uso, seria uma limita\c{c}\~{a}o desperdi\c{c}ar nomes.\\
+
+\item \textbf{Atualiza\c{c}\~{o}es}\\
+
+Se um NDO pode ser replicado e guardado na rede para futuros tratamentos, os nomes t\^{e}m de ter um prazo de validade longa e o conte\'{u}do do nome n\~{a}o deve ser alterado, o que impossibilita a atualiza\c{c}\~{a}o de objetos.\\
+
+\item \textbf{Integridade dos dados}\\
+
+A verifica\c{c}\~{a}o da integridade dos dados \'{e} um passo importante para a consolida\c{c}\~{a}o do ICN. O facto de os NDOs n\~{a}o s\'{o} serem recuperados a partir da copa original como tamb\'{e}m a partir de qualquer ponto da rede em que estejam guardados em cache e de poderem ser modificados faz com que n\~{a}o se possa confiar a 100\% na integridade dos dados. Utilizar uma \textit{hash} como parte do nome de objeto \'{e} tamb\'{e}m uma poss\'{i}vel solu\c{c}\~{a}o deste problema, embora a utiliza\c{c}\~{a}o de chaves criptogr\'{a}ficas seja melhor aplicada nestes casos.\\
+
+\item \textbf{Cifragem}\\
+
+É poss\'{i}vel cifrar NDOs no ICN e apenas os consumidores que tiverem as chaves podem aceder a esse conte\'{u}do privado. No entanto distribuir e gerir estas chaves, tal como fornecer as interfaces para os utilizadores \'{e} ainda uma mat\'{e}ria de estudo.\\
+
+\item \textbf{Agrega\c{c}\~{a}o e filtragem de tr\'{a}fego}\\
+
+Uma mensagem de um pedido \textit{request} para receber um objeto de dados pode agregar v\'{a}rios pedidos de v\'{a}rios consumidores. Esta agrega\c{c}\~{a}o reduz o tr\'{a}fego na rede, mas torna a filtragem mais dif\'{i}cil. O desafio neste caso \'{e} fornecer um mecanismo que pretenda agrega\c{c}\~{a}o, mas ao mesmo tempo uma pr\'{e}-filtragem dos \textit{request} dos utilizadores. Uma poss\'{i}vel solu\c{c}\~{a}o \'{e} indicar o conjunto de utilizadores que fizeram o \textit{request} nesse \textit{request} agregado, permitindo assim gerar numa resposta apenas o subconjunto dos utilizadores que fizeram \textit{request} e t\^{e}m acesso aos dados. No entanto, esta solu\c{c}\~{a}o requer a utiliza\c{c}\~{a}o de outros n\'{o}s na rede e n\~{a}o permite fazer \textit{caching}.\\
+
+\item \textbf{Roteamento pelo nome}\\
+
+Uma vez que o n\'{u}mero de objetos de dados tem tend\^{e}ncia a aumentar, o tamanho das tabelas de encaminhamento \'{e} um problema a pensar, pois pode ser proporcional ao n\'{u}mero de objetos de dados, a menos que seja introduzido um mecanismo de agrega\c{c}\~{a}o. Por outro lado, o \textit{Route-By-Name Routing} (RBNR) reduz a lat\^{e}ncia e simplifica o processo de roteamento devido \`{a} omiss\~{a}o do processo de resolu\c{c}\~{a}o.\\
+\end{enumerate}
+
+
+\subsection{\textit{Vantagens vs Custo de Implementa\c{c}\~{a}o}}
+
+\subsection{Testes de trabalhos anteriores}
 
 \section{ICN: O futuro da \textit{Internet}}
 
