@@ -34,4 +34,29 @@ D.~Cheriton and M.~Gritter, ``Triad: A new next-generation internet
 ``Guest editorial [information centric networking],'' \emph{China
   Communications}, vol.~12, no.~7, pp. iii--iv, July 2015.
 
+\bibitem{surveyICN}
+G.~Xylomenos, C.~N. Ververidis, V.~A. Siris, N.~Fotiou, C.~Tsilopoulos,
+  X.~Vasilakos, K.~V. Katsaros, and G.~C. Polyzos, ``A survey of
+  information-centric networking research,'' \emph{IEEE Communications Surveys
+  Tutorials}, vol.~16, no.~2, pp. 1024--1049, Second 2014.
+
+\bibitem{dona}
+\emph{A Data-Oriented (and Beyond) Network Architecture}, vol.~37.\hskip 1em
+  plus 0.5em minus 0.4em\relax Kyoto, Japan: ACM, 08/2007 2007.
+
+\bibitem{publishSubscribe}
+S.~Arianfar, P.~Nikander, and J.~Ott, ``On content-centric router design and
+  implications,'' in \emph{Proceedings of the Re-Architecting the Internet
+  Workshop}.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 2010, p.~5.
+
+\bibitem{icnForest}
+\BIBentryALTinterwordspacing
+A.~Ghodsi, S.~Shenker, T.~Koponen, A.~Singla, B.~Raghavan, and J.~Wilcox,
+  ``Information-centric networking: Seeing the forest for the trees,'' in
+  \emph{Proceedings of the 10th ACM Workshop on Hot Topics in Networks}, ser.
+  HotNets-X.\hskip 1em plus 0.5em minus 0.4em\relax New York, NY, USA: ACM,
+  2011, pp. 1:1--1:6. [Online]. Available:
+  \url{http://doi.acm.org/10.1145/2070562.2070563}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}
