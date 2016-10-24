@@ -17,45 +17,45 @@ Warning--empty year in p2p
 Warning--empty journal in challenges
 
 Done.
-You've used 11 entries,
+You've used 18 entries,
             4087 wiz_defined-function locations,
-            897 strings with 9302 characters,
-and the built_in function-call counts, 7829 in all, are:
-= -- 590
-> -- 217
-< -- 53
-+ -- 110
-- -- 42
-* -- 404
-:= -- 1175
-add.period$ -- 24
-call.type$ -- 11
-change.case$ -- 11
-chr.to.int$ -- 114
-cite$ -- 15
-duplicate$ -- 577
-empty$ -- 632
-format.name$ -- 51
-if$ -- 1800
+            940 strings with 10995 characters,
+and the built_in function-call counts, 13867 in all, are:
+= -- 1066
+> -- 365
+< -- 109
++ -- 189
+- -- 66
+* -- 696
+:= -- 2035
+add.period$ -- 42
+call.type$ -- 18
+change.case$ -- 17
+chr.to.int$ -- 249
+cite$ -- 22
+duplicate$ -- 993
+empty$ -- 1144
+format.name$ -- 82
+if$ -- 3235
 int.to.chr$ -- 0
-int.to.str$ -- 11
-missing$ -- 114
-newline$ -- 62
-num.names$ -- 9
-pop$ -- 289
+int.to.str$ -- 18
+missing$ -- 185
+newline$ -- 85
+num.names$ -- 16
+pop$ -- 461
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 570
+skip$ -- 1028
 stack$ -- 0
-substring$ -- 281
-swap$ -- 461
-text.length$ -- 15
+substring$ -- 601
+swap$ -- 810
+text.length$ -- 26
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 11
+type$ -- 18
 warning$ -- 4
-while$ -- 27
-width$ -- 13
-write$ -- 128
+while$ -- 62
+width$ -- 20
+write$ -- 197
 (There were 4 warnings)

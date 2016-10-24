@@ -77,6 +77,48 @@ D.~Saucez, T.~Schmidt, D.~Kutscher, S.~Eum, I.~Psaras, D.~Corujo, and
   K.~Pentikousis, ``Information-centric networking (icn) research challenges,''
   2016.
 
+\bibitem{cachingicn}
+G.~Zhang, Y.~Li, and T.~Lin, ``Caching in information centric networking: A
+  survey,'' \emph{Computer Networks}, vol.~57, no.~16, pp. 3128--3141, 2013.
+
+\bibitem{probcaching}
+I.~Psaras, W.~K. Chai, and G.~Pavlou, ``Probabilistic in-network caching for
+  information-centric networks,'' in \emph{Proceedings of the second edition of
+  the ICN workshop on Information-centric networking}.\hskip 1em plus 0.5em
+  minus 0.4em\relax ACM, 2012, pp. 55--60.
+
+\bibitem{lessMore}
+\BIBentryALTinterwordspacing
+W.~K. Chai, D.~He, I.~Psaras, and G.~Pavlou, \emph{Cache ``Less for More'' in
+  Information-Centric Networks}.\hskip 1em plus 0.5em minus 0.4em\relax Berlin,
+  Heidelberg: Springer Berlin Heidelberg, 2012, pp. 27--40. [Online].
+  Available: \url{http://dx.doi.org/10.1007/978-3-642-30045-5_3}
+\BIBentrySTDinterwordspacing
+
+\bibitem{agebased}
+Z.~Ming, M.~Xu, and D.~Wang, ``Age-based cooperative caching in
+  information-centric networking,'' in \emph{2014 23rd International Conference
+  on Computer Communication and Networks (ICCCN)}.\hskip 1em plus 0.5em minus
+  0.4em\relax IEEE, 2014, pp. 1--8.
+
+\bibitem{modeling}
+G.-q. WANG, T.~HUANG, L.~Jiang, J.-y. CHEN, and Y.-j. LIU, ``Modeling
+  in-network caching and bandwidth sharing performance in information-centric
+  networking,'' \emph{The Journal of China Universities of Posts and
+  Telecommunications}, vol.~20, no.~2, pp. 99--105, 2013.
+
+\bibitem{bandstorage}
+L.~Muscariello, G.~Carofiglio, and M.~Gallo, ``Bandwidth and storage sharing
+  performance in information centric networking,'' in \emph{Proceedings of the
+  ACM SIGCOMM workshop on Information-centric networking}.\hskip 1em plus 0.5em
+  minus 0.4em\relax ACM, 2011, pp. 26--31.
+
+\bibitem{hashrouting}
+L.~Saino, I.~Psaras, and G.~Pavlou, ``Hash-routing schemes for information
+  centric networking,'' in \emph{Proceedings of the 3rd ACM SIGCOMM workshop on
+  Information-centric networking}.\hskip 1em plus 0.5em minus 0.4em\relax ACM,
+  2013, pp. 27--32.
+
 \bibitem{publishSubscribe}
 S.~Arianfar, P.~Nikander, and J.~Ott, ``On content-centric router design and
   implications,'' in \emph{Proceedings of the Re-Architecting the Internet

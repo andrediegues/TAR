@@ -4,6 +4,8 @@
 \usepackage{graphicx}
 \usepackage{footnote}
 \usepackage{url}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 
 % correct bad hyphenation here
 \hyphenation{op-tical net-works semi-conduc-tor}
@@ -223,23 +225,17 @@ Uma vez que o n\'{u}mero de objetos de dados tem tend\^{e}ncia a aumentar, o tam
 
 \subsection{Testes de trabalhos anteriores}
 
-Na sec\c{c}\~{a}o anterior vimos que o \textit{caching} poderia manter os dados continuamente dispon\'{i}veis na rede. Alguns \textit{researchers} investigaram o assunto realizando testes de \textit{performance} sobre as v\'{a}rias formas de fazer \textit{caching}.
+Na sec\c{c}\~{a}o anterior vimos que o \textit{caching} poderia manter os dados continuamente dispon\'{i}veis na rede. Alguns \textit{researchers} investigaram o assunto\cite{cachingicn} realizando testes de \textit{performance} sobre os v\'{a}rios tipos de \textit{caching} e optimizá-lo\cite{probcaching}.\\
 
-% teste de centrality caching e porque e que ubiquity caching e pior Cache “Less for More” in Information-Centric Networks 
 
-% tipos de caching Caching in information centric networking: A survey
+Primeiramente pensou-se que \textit{caching} ub\'{i}quo seria a melhor abordagem, por\'{e}m, novas teorias chegaram sobre novos tipos de \textit{caching}, por exemplo,  \textit{centrality caching}\cite{lessMore}, \textit{age-based cooperative caching}\cite{agebased}, entre outros.\\
 
-% Probabilistic In-Network Caching for Information-Centric Networks ∗
 
-% Age-based Cooperative Caching in Information-Centric Networking
+Outros \textit{researchers} quiseram demonstrar que a largura de banda e armazenamento na rede eram fatores que influenciavam também a \textit{performance}\cite{modeling}\cite{bandstorage} e até os mecanismos de \textit{hash-routing} foram estudados de modo a serem otimizados\cite{hashrouting}.\\
 
-% bandwidth testes Modeling in-network caching and bandwidth sharing performance in information-centric networking & Bandwidth and Storage Sharing Performance in Information Centric Networking
+Todos estes testes e estudos mostraram melhorias e evolução na procura de uma arquitetura ICN que seja viável mas concluiram que ainda são áreas que necessitam de mais estudo.\\
 
-% Hash-routing Schemes for Information Centric Networking - hashing
 
-% Information centric networking over SDN and OpenFlow: Architectural aspects and experiments on the OFELIA testbed
-
-% Economic Incentives in Information- Centric Networking: Implications for Protocol Design and Public Policy
 \section{ICN: O futuro da \textit{Internet}}
 
 Os utilizadores est\~{a}o cada vez mais interessados em receber conte\'{u}dos, seja qual for a sua origem, do que ter de aceder a um servidor para receber essa informa\c{c}\~{a}o. E o facto de a \textit{Internet} ainda ser centrada nos \textit{hosts} implica que o utilizador tenha de especificar em cada pedido n\~{a}o s\'{o} a informa\c{c}\~{a}o que deseja receber, como tamb\'{e}m especificar o servidor do qual a informa\c{c}\~{a}o pode ser retirada. Com o ICN isso j\'{a} n\~{a}o acontece\cite{surveyICN}.\\
@@ -250,9 +246,8 @@ Quando um elemento da rede receber um pedido por conte\'{u}do, pode ter duas a\c
 
 Nesse sentido, e j\'{a} que os conte\'{u}dos chegam de elementos da rede ao inv\'{e}s da origem, o desenho do ICN tem de garantir a seguran\c{c}a dos conte\'{u}dos, contrariamente \`{a} estrutura atual da Internet que se foca no caminho. Para isso, quem fornece os dados assina um modelo de seguran\c{c}a para que os elementos da rede e os consumidores apenas tenham de verificar essa assinatura para garantir a sua fiabilidade\cite{icnForest}.\\
 
-
 \section{Conclus\~{a}o}
-The conclusion goes here.\\
+
 %From content delivery today to information centric networking
 
 \IEEEtriggeratref{8}
