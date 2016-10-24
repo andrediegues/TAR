@@ -26,6 +26,14 @@ B.~Ahlgren, C.~Dannewitz, C.~Imbrenda, D.~Kutscher, and B.~Ohlman, ``A survey
   of information-centric networking,'' \emph{IEEE Communications Magazine},
   vol.~50, no.~7, pp. 26--36, July 2012.
 
+\bibitem{cdnToICN}
+\BIBentryALTinterwordspacing
+G.~Carofiglio, G.~Morabito, L.~Muscariello, I.~Solis, and M.~Varvello, ``From
+  content delivery today to information centric networking,'' \emph{Comput.
+  Netw.}, vol.~57, no.~16, pp. 3116--3127, Nov. 2013. [Online]. Available:
+  \url{http://dx.doi.org/10.1016/j.comnet.2013.07.002}
+\BIBentrySTDinterwordspacing
+
 \bibitem{triad}
 D.~Cheriton and M.~Gritter, ``Triad: A new next-generation internet
   architecture,'' 2000.
@@ -53,14 +61,6 @@ D.~Farber, R.~Greer, A.~Swart, and J.~Balter, ``Internet content delivery
 
 \bibitem{p2p}
 O.~A. Skaflestad and N.~Kaurel, ``Peer-to-peer networking.''
-
-\bibitem{cdnToICN}
-\BIBentryALTinterwordspacing
-G.~Carofiglio, G.~Morabito, L.~Muscariello, I.~Solis, and M.~Varvello, ``From
-  content delivery today to information centric networking,'' \emph{Comput.
-  Netw.}, vol.~57, no.~16, pp. 3116--3127, Nov. 2013. [Online]. Available:
-  \url{http://dx.doi.org/10.1016/j.comnet.2013.07.002}
-\BIBentrySTDinterwordspacing
 
 \bibitem{icnForest}
 \BIBentryALTinterwordspacing

@@ -35,6 +35,10 @@ Hoje em dia, o enorme aumento de tr\'{a}fego de conte\'{u}do e dados entre utili
 \end{abstract}
 
 \section{Introdu\c{c}\~{a}o}
+
+
+A \textit{Internet} foi concebida originalmente para estabelecer comunicação entre dois \textit{hosts}, porém, quando o seu acesso ficou ao público e a dispositivos movéis resultou numa comunidade que comunica entre si através de conteúdo e isso fez aumentar o tráfego na \textit{Internet} para números nunca antes vistos. Neste artigo tentámos mostrar de que forma a comunidade está a reagir a este fenómeno através do paradigma ICN\cite{cdnToICN}.\\
+
 O paradigma ICN foi baseado numa primeira abordagem de arquitetura \textit{Internet} denominada de TRIAD\cite{triad}, cujo principal objectivo seria facilitar e aliviar cerca de 80\% do tr\'{a}fego de \textit{Internet} que servia apenas para entrega de conte\'{u}do atrav\'{e}s de uma arquitetura \textit{data-centric}, isto \'{e}, um utilizador pede o conte\'{u}do ao servidor em vez de pedir ao \textit{host} que det\'{e}m esse mesmo conte\'{u}do\cite{ahlgren}. A TRIAD define uma nova camada de conte\'{u}do que est\'{a} implementada por \textit{content routers} que encaminham os pedidos aos \textit{content servers} que, de seguida, fornecem o conte\'{u}do~.\\
 
 O ICN procura substituir a arquitetura atual, que \'{e} um modelo de comunica\c{c}\~{a}o \textit{host-to-host}, por uma arquitetura baseada num modelo \textit{data-centric}, tratando o conte\'{u}do como entidade principal na arquitetura das redes como podemos observar na figura \ref{icn}. Uma rede com este tipo de arquitetura ganha in\'{u}meras vantagens em rela\c{c}\~{a}o ao modelo \textit{host-to-host}, nomeadamente, na distribui\c{c}\~{a}o de conte\'{u}do, seguran\c{c}a e desenvolvimento de aplica\c{c}\~{o}es\cite{icn}.\\
@@ -60,7 +64,7 @@ Existem v\'{a}rias arquiteturas baseadas neste paradigma. Neste artigo vamos abo
 
 O ICN utiliza o modelo de comunica\c{c}\~{a}o \textit{Publish/Subscribe}. Neste modelo, os emissores, chamados \textit{Publishers}, em vez de enviarem as mensagens diretamente aos recetores espec\'{i}ficos, caracterizam as mensagens publicadas em classes sem conhecimento de quem v\~{a}o ser os subscritores. Por outro lado, os subscritores, chamados de \textit{Subscribers}, demonstram interesse numa ou mais classes e apenas recebem mensagens da(s) classe(s) que subscreveram, tamb\'{e}m sem conhecimento de quem as enviou.\\ 
 
-Neste novo paradigma, os dados tornam-se independentes de localiza\c{c}\~{a}o, mem\'{o}ria e meio de transporte, permitindo o armazenamento e replica\c{c}\~{a}o em \textit{cache}. Algo que impulsiona uma melhoria na efici\~{e}ncia, na escalabilidade e na robustez de comunica\c{c}\~{a}o em cen\'{a}rios dif\'{i}ceis. Existem v\'{a}rias abordagens do ICN, todas focadas num novo desenho da arquitetura da Internet atual, com o objetivo de substituir o atual modelo centrado nos \textit{hosts}, para implementar um modelo mais orientado a dados e centrado nos conte\'{u}dos\cite{surveyICN}. A saber:\\
+Neste novo paradigma, os dados tornam-se independentes de localiza\c{c}\~{a}o, mem\'{o}ria e meio de transporte, permitindo o armazenamento e replica\c{c}\~{a}o em \textit{cache}. Algo que impulsiona uma melhoria na efici\~{e}ncia, na escalabilidade e na robustez de comunica\c{c}\~{a}o em cen\'{a}rios dif\'{i}ceis. Existem v\'{a}rias abordagens do ICN, todas focadas num novo desenho da arquitetura da \textit{Internet} atual, com o objetivo de substituir o atual modelo centrado nos \textit{hosts}, para implementar um modelo mais orientado a dados e centrado nos conte\'{u}dos\cite{surveyICN}.\\
 
 
 
@@ -68,7 +72,7 @@ Neste novo paradigma, os dados tornam-se independentes de localiza\c{c}\~{a}o, m
 
 A resolu\c{c}\~{a}o de nomes no DONA\cite{dona} \'{e} da responsabilidade de uns servidores especializados chamados \textit{Resolution Handlers} (RHs). Existe pelo menos um RH em cada sistema aut\'{o}nomo. Estes \textit{Handlers} est\~{a}o interconectados, formando um servi\c{c}o hier\'{a}rquico de resolu\c{c}\~{a}o de nomes por cima das rela\c{c}\~{o}es interdom\'{i}nio de \textit{routing} existentes, para que seja poss\'{i}vel conciliar resolu\c{c}\~{a}o de nomes com \textit{routing} de informa\c{c}\~{a}o no mesmo sistema. O \textit{Publisher} envia uma mensagem \textit{REGISTER} com o nome do objeto para o seu RH local, que guarda um apontador para o \textit{Publisher}. O RH depois propaga o \textit{REGISTER} para os RHs que tem liga\c{c}\~{a}o, seguindo as rotas estabelecidas, guardando estes RHs o mapeamento entre o nome do objeto e o endere\c{c}o do RH que encaminhou o registo.\\
 
- Com isto, os \textit{REGISTERs} s\~{a}o replicados nos RHs at\'{e} aos~\textit{tier-1}, e j\'{a} que estes est\~{a}o conectados com os outros todos, o RH que est\'{a} localizado nesse \textit{tier} est\'{a} ciente do que se passa em toda a rede.Para localizar um item, o \textit{Subscriber} envia uma mensagem \textit{FIND} para o RH local, que tamb\'{e}m propaga esta mensagem aos RHs parentes, at\'{e} que \'{e} feito um \textit{match} com o~\textit{tier-1}. Depois seguem-se os apontadores para encontrar o \textit{Publisher}, j\'{a} que o \textit{tier-1} \'{e} conhecedor de toda a estrutura da rede. A figura \ref{dona} ilustra como funciona esta arquitetura.\\
+ Com isto, os \textit{REGISTERs} s\~{a}o replicados nos RHs at\'{e} aos~\textit{tier-1}, e j\'{a} que estes est\~{a}o conectados com os outros todos, o RH que est\'{a} localizado nesse \textit{tier} est\'{a} ciente do que se passa em toda a rede. Para localizar um item, o \textit{Subscriber} envia uma mensagem \textit{FIND} para o RH local, que tamb\'{e}m propaga esta mensagem aos RHs parentes, at\'{e} que \'{e} feito um \textit{match} com o~\textit{tier-1}. Depois seguem-se os apontadores para encontrar o \textit{Publisher}, j\'{a} que o \textit{tier-1} \'{e} conhecedor de toda a estrutura da rede. A figura \ref{dona} ilustra como funciona esta arquitetura.\\
 
 \begin{figure}[!t]
 \centering
@@ -96,7 +100,7 @@ A resolu\c{c}\~{a}o de nomes no \textit{PURSUIT} \'{e} tratada pela fun\c{c}\~{a
 
 Os \textit{Subscribers} emitem mensagens \textit{INTEREST} para pedir informa\c{c}\~{a}o sobre objetos que chegam na forma de dados. As mensagens s\~{a}o encaminhadas por \textit{Content Routers} (CRs), e cada um dos CRs mant\'{e}m tr\^{e}s estruturas de dados: \textit{Forwarding Information Base} (FIB), \textit{Pending Interest Table} (PIT) e \textit{Content Store} (CS). \\
 
-O FIB mapeia informa\c{c}\~{a}o para as interfaces de sa\'{i}da que devem ser usadas para encaminhar as mensagens \textit{INTEREST}. O PIT segue as interfaces de entrada nas quais as mensagens de \textit{INTEREST} chegou. J\'{a} o CS funciona como \textit{cache} local para objetos de informa\c{c}\~{a}o que passaram pelo CR.Quando um \textit{INTEREST} chega, o CR extrai a informa\c{c}\~{a}o do nome e procurar por um objeto nesse CS cujo nome coincida com o prefixo pretendido. Se for bem-sucedido, \'{e} imediatamente enviado atrav\'{e}s da interface de entrada numa mensagem \textit{DATA} e o \textit{INTEREST} \'{e} descartado. Sen\~{a}o, o \textit{router} executa uma procura do prefixo mais longo no seu FIB, para decidir a dire\c{c}\~{a}o do encaminhamento. Se a entrada for encontrada no FIB, o router regista a interface de entrada do \textit{INTEREST} no PIT e empurra o \textit{INTEREST} para o CR indicado pelo FIB. O exemplo da figura \ref{ndn} permite observar como \'{e} feita a transmiss\~{a}o de conte\'{u}do.\\
+O FIB mapeia informa\c{c}\~{a}o para as interfaces de sa\'{i}da que devem ser usadas para encaminhar as mensagens \textit{INTEREST}. O PIT segue as interfaces de entrada nas quais as mensagens de \textit{INTEREST} chegou. J\'{a} o CS funciona como \textit{cache} local para objetos de informa\c{c}\~{a}o que passaram pelo CR.Quando um \textit{INTEREST} chega, o CR extrai a informa\c{c}\~{a}o do nome e procurar por um objeto nesse CS cujo nome coincida com o prefixo pretendido. Se for bem-sucedido, \'{e} imediatamente enviado atrav\'{e}s da interface de entrada numa mensagem \textit{DATA} e o \textit{INTEREST} \'{e} descartado. Sen\~{a}o, o \textit{router} executa uma procura do prefixo mais longo no seu FIB, para decidir a dire\c{c}\~{a}o do encaminhamento. Se a entrada for encontrada no FIB, o \textit{router} regista a interface de entrada do \textit{INTEREST} no PIT e empurra o \textit{INTEREST} para o CR indicado pelo FIB. O exemplo da figura \ref{ndn} permite observar como \'{e} feita a transmiss\~{a}o de conte\'{u}do.\\
 
 \begin{figure}[!t]
 \centering
@@ -186,7 +190,7 @@ Migrar da atual estrutura da \textit{Internet} para o ICN s\'{o} ser\'{a} poss\'
 No entanto, existem problemas associados como o tamanho da topologia (aproximadamente 45 mil sistemas aut\'{o}nomos e perto de 200 mil \textit{links}), o que pode limitar a escalabilidade da ferramenta de avalia\c{c}\~{a}o. Tal como nas topologias \textit{host-centric}, definir apenas um grafo de n\'{o}s n\~{a}o vai ser suficiente. É preciso tamb\'{e}m definir e listar as respetivas matrizes a que correspondem a rede e a \textit{storage} e as capacidades computacionais dispon\'{i}veis para cada n\'{o}, tal como as caracter\'{i}sticas (e atrasos) de cada \textit{link}\footnote{\url{https://tools.ietf.org/html/rfc7945#ref-Montage}}. Valores aproximados podem ser estimados a partir de plataformas como o iPlane \footnote{\url{http://iplane.cs.washington.edu/}}.
 \\
 
-\subsection{Desafios}
+\subsection{Desafios}\label{challenges}
 
 O ICN ainda est\'{a} longe de estar pronto a ser implementado. Os \textit{researchers} t\^{e}m lidado com v\'{a}rios desafios para tornarem este novo modelo dispon\'{i}vel para poder ser colocado ao servi\c{c}o dos utilizadores. Entre os desafios que t\^{e}m encontrado~\cite{challenges} destacam-se:\\
 
@@ -248,10 +252,9 @@ Nesse sentido, e j\'{a} que os conte\'{u}dos chegam de elementos da rede ao inv\
 
 \section{Conclus\~{a}o}
 
-%From content delivery today to information centric networking
+O tráfego na \textit{Internet} hoje em dia corresponde maioritariamente a transmissão de conteúdo entre \textit{hosts}. Apesar da atual arquitetura já ter soluções para este tipo de comunicação não é uma arquitetura que está preparada para que o tráfego de conteúdo cresça como tem vindo a crescer ao longo dos anos e, neste aspeto, uma arquitetura \textit{data-centric} baseada no ICN seria muito vantajosa.\\
 
-\IEEEtriggeratref{8}
-\IEEEtriggercmd{\enlargethispage{-5in}}
+Contudo, somos realistas e admitimos que existem muitas "arestas por polir" neste modelo, principalmente nos desafios que abordamos na secção \ref{challenges}, e isso faz com que a comunidade nao apoie, para já, uma mudança para uma arquitetura ICN. Acreditamos que no futuro, através de novos estudos e investigações, sugirá uma arquitetura ICN que realmente resolva estes problemas. 
 
 \bibliography{icn}
 \bibliographystyle{IEEEtran}

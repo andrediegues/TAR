@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.9.6)  24 OCT 2016 21:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.9.6)  24 OCT 2016 23:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -603,63 +603,68 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
 <icn.png, id=1, 683.55376pt x 509.65407pt>
 File: icn.png Graphic file (type png)
  <use icn.png>
-Package pdftex.def Info: icn.png used on input line 44.
+Package pdftex.def Info: icn.png used on input line 48.
 (pdftex.def)             Requested size: 180.67499pt x 134.70773pt.
 
-Underfull \hbox (badness 1845) in paragraph at lines 49--50
+Underfull \hbox (badness 1845) in paragraph at lines 53--54
 []\T1/ptm/m/n/10 Existem várias ar-quite-turas baseadas neste paradigma.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 52.
+(Font)              <7> on input line 56.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 52.
+(Font)              <5> on input line 56.
 
-Underfull \hbox (badness 3281) in paragraph at lines 61--62
+Underfull \hbox (badness 3281) in paragraph at lines 65--66
 \T1/ptm/m/n/10 car-ac-ter-i-zam as men-sagens pub-li-cadas em classes sem
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 63--64
+Underfull \hbox (badness 1642) in paragraph at lines 67--68
 \T1/ptm/m/n/10 cen-trado nos \T1/ptm/m/it/10 hosts\T1/ptm/m/n/10 , para im-ple-
 men-tar um mod-elo mais
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
 
-Underfull \hbox (badness 6094) in paragraph at lines 69--70
+Underfull \hbox (badness 6094) in paragraph at lines 73--74
 \T1/ptm/m/n/10 de uns servi-dores es-pe-cial-iza-dos chama-dos \T1/ptm/m/it/10 
 Res-o-lu-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
@@ -667,101 +672,87 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
 
  <./icn.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
 <dona.png, id=12, 1145.27875pt x 728.7225pt>
 File: dona.png Graphic file (type png)
  <use dona.png>
-Package pdftex.def Info: dona.png used on input line 75.
+Package pdftex.def Info: dona.png used on input line 79.
 (pdftex.def)             Requested size: 180.67499pt x 114.9523pt.
 
-Underfull \hbox (badness 3884) in paragraph at lines 82--84
+Underfull \hbox (badness 3884) in paragraph at lines 86--88
 []\T1/ptm/m/n/10 Esta ar-quite-tura sub-sti-tui com-ple-ta-mente a \T1/ptm/m/it
 /10 stack \T1/ptm/m/n/10 do
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--84
+Underfull \hbox (badness 10000) in paragraph at lines 86--88
 
  []
 
 
-Underfull \hbox (badness 2126) in paragraph at lines 85--86
+Underfull \hbox (badness 2126) in paragraph at lines 89--90
 []\T1/ptm/m/n/10 A res-olução de nomes no \T1/ptm/m/it/10 PUR-SUIT \T1/ptm/m/n/
 10 é tratada pela
  []
 
 
-Underfull \hbox (badness 2384) in paragraph at lines 85--86
+Underfull \hbox (badness 2384) in paragraph at lines 89--90
 \T1/ptm/m/it/10 Net-work \T1/ptm/m/n/10 (RENE). Quando um \T1/ptm/m/it/10 Pub-l
 isher \T1/ptm/m/n/10 quer anun-ciar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
 <pursuit.png, id=13, 981.6675pt x 775.89874pt>
 File: pursuit.png Graphic file (type png)
  <use pursuit.png>
-Package pdftex.def Info: pursuit.png used on input line 89.
+Package pdftex.def Info: pursuit.png used on input line 93.
 (pdftex.def)             Requested size: 180.67499pt x 142.79314pt.
 
-Underfull \hbox (badness 1424) in paragraph at lines 97--98
+Underfull \hbox (badness 1424) in paragraph at lines 101--102
 \T1/ptm/m/n/10 e cada um dos CRs man-tém três es-tru-turas de da-dos:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
 <ndn.png, id=14, 947.54pt x 790.955pt>
 File: ndn.png Graphic file (type png)
  <use ndn.png>
-Package pdftex.def Info: ndn.png used on input line 103.
+Package pdftex.def Info: ndn.png used on input line 107.
 (pdftex.def)             Requested size: 180.67499pt x 150.81404pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 111.
+(Font)              <8> on input line 115.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 111.
+(Font)              <6> on input line 115.
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
-
- []
-
-<sg30.png, id=15, 171.039pt x 158.39175pt>
-File: sg30.png Graphic file (type png)
- <use sg30.png>
-Package pdftex.def Info: sg30.png used on input line 115.
-(pdftex.def)             Requested size: 180.67499pt x 167.32166pt.
-
-Underfull \hbox (badness 2635) in paragraph at lines 120--121
-\T1/ptm/m/n/10 re-al-izado em grande parte den-tro das métri-cas do \T1/ptm/m/i
-t/10 IP
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
 [2 <./dona.png (PNG copy)> <./pursuit.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
+<sg30.png, id=18, 171.039pt x 158.39175pt>
+File: sg30.png Graphic file (type png)
+ <use sg30.png>
+Package pdftex.def Info: sg30.png used on input line 119.
+(pdftex.def)             Requested size: 180.67499pt x 167.32166pt.
 
- []
-
-
-Underfull \hbox (badness 1648) in paragraph at lines 124--125
-\T1/ptm/m/n/10 a ex-ten-são do mesmo ao quadro IPPM. Um bene-fí-cio
+Underfull \hbox (badness 2635) in paragraph at lines 124--125
+\T1/ptm/m/n/10 re-al-izado em grande parte den-tro das métri-cas do \T1/ptm/m/i
+t/10 IP
  []
 
 
@@ -775,24 +766,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--127
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
+Underfull \hbox (badness 1648) in paragraph at lines 128--129
+\T1/ptm/m/n/10 a ex-ten-são do mesmo ao quadro IPPM. Um bene-fí-cio
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
- []
-
-
-Underfull \hbox (badness 1371) in paragraph at lines 138--139
-\T1/ptm/m/n/10 ar-quite-tura da \T1/ptm/m/it/10 In-ter-net \T1/ptm/m/n/10 por u
-ma ar-quite-tura baseada em
- []
-
-
-Underfull \hbox (badness 2012) in paragraph at lines 138--139
-\T1/ptm/m/n/10 na re-sposta, pois sig-nifica que a at-ual ar-quite-tura não
  []
 
 
@@ -800,69 +785,76 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--139
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 142--143
+\T1/ptm/m/n/10 ar-quite-tura da \T1/ptm/m/it/10 In-ter-net \T1/ptm/m/n/10 por u
+ma ar-quite-tura baseada em
+ []
+
+
+Underfull \hbox (badness 2012) in paragraph at lines 142--143
+\T1/ptm/m/n/10 na re-sposta, pois sig-nifica que a at-ual ar-quite-tura não
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
+
+ []
+
 <cdnvsicn.png, id=19, 557.08125pt x 347.04657pt>
 File: cdnvsicn.png Graphic file (type png)
  <use cdnvsicn.png>
-Package pdftex.def Info: cdnvsicn.png used on input line 143.
+Package pdftex.def Info: cdnvsicn.png used on input line 147.
 (pdftex.def)             Requested size: 180.67499pt x 112.55579pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
+ [3 <./ndn.png (PNG copy)> <./sg30.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
-
- []
-
-[3 <./ndn.png (PNG copy)> <./sg30.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 155--156
 
  []
 
 
-Underfull \hbox (badness 6396) in paragraph at lines 157--159
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
+
+ []
+
+
+Underfull \hbox (badness 6396) in paragraph at lines 161--163
 []\T1/ptm/m/n/10 Os \T1/ptm/m/it/10 Uni-form Re-source Iden-ti-fi-ca-tions \T1/
 ptm/m/n/10 (URIs) são
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--159
+Underfull \hbox (badness 10000) in paragraph at lines 161--163
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--162
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
-
- []
-
-
-Underfull \hbox (badness 2990) in paragraph at lines 165--166
-[]\T1/ptm/m/n/10 A se-gu-rança nas re-des, hoje em dia, pro-tege a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
+Underfull \hbox (badness 10000) in paragraph at lines 164--166
 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
+ []
+
+
+Underfull \hbox (badness 2990) in paragraph at lines 169--170
+[]\T1/ptm/m/n/10 A se-gu-rança nas re-des, hoje em dia, pro-tege a
  []
 
 
@@ -896,48 +888,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 179--180
  []
 
 
-Underfull \hbox (badness 2503) in paragraph at lines 186--188
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+
+ []
+
+
+Underfull \hbox (badness 2503) in paragraph at lines 190--192
 \T1/ptm/m/n/10 com-puta-cionais disponíveis para cada nó, tal como as
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--188
+Underfull \hbox (badness 10000) in paragraph at lines 190--192
 
  []
 
 
-Underfull \hbox (badness 3108) in paragraph at lines 191--192
+Underfull \hbox (badness 3108) in paragraph at lines 195--196
 \T1/ptm/m/n/10 este novo mod-elo disponível para poder ser colo-cado
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 191--192
+Underfull \hbox (badness 1622) in paragraph at lines 195--196
 \T1/ptm/m/n/10 ao serviço dos uti-lizadores. En-tre os de-safios que têm
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--192
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--197
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 198--199
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 200--201
 
- []
-
-
-Underfull \hbox (badness 1708) in paragraph at lines 202--203
-[]\T1/ptm/m/n/10 Como a rede pode ver quem faz o pe-dido pela
  []
 
 
@@ -948,6 +935,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 202--203
 [4 <./cdnvsicn.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 204--205
 
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 206--207
+[]\T1/ptm/m/n/10 Como a rede pode ver quem faz o pe-dido pela
  []
 
 
@@ -971,11 +963,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 212--213
  []
 
 
-Underfull \hbox (badness 5622) in paragraph at lines 214--215
-[]\T1/ptm/m/n/10 É pos-sível cifrar NDOs no ICN e ape-nas os
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 214--215
 
  []
@@ -983,6 +970,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 214--215
 
 Underfull \hbox (badness 10000) in paragraph at lines 216--217
 
+ []
+
+
+Underfull \hbox (badness 5622) in paragraph at lines 218--219
+[]\T1/ptm/m/n/10 É pos-sível cifrar NDOs no ICN e ape-nas os
  []
 
 
@@ -996,68 +988,58 @@ Underfull \hbox (badness 10000) in paragraph at lines 220--221
  []
 
 
-Underfull \hbox (badness 2600) in paragraph at lines 222--223
-\T1/ptm/m/n/10 tendên-cia a au-men-tar, o tamanho das tabelas de
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 222--223
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--229
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
  []
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 231--232
+Underfull \hbox (badness 2600) in paragraph at lines 226--227
+\T1/ptm/m/n/10 tendên-cia a au-men-tar, o tamanho das tabelas de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
+
+ []
+
+
+Underfull \hbox (badness 2158) in paragraph at lines 235--236
 []\T1/ptm/m/n/10 Primeiramente pensou-se que \T1/ptm/m/it/10 caching \T1/ptm/m/
 n/10 ubíquo se-ria a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
 
  []
 
 
-Underfull \hbox (badness 2418) in paragraph at lines 234--235
+Underfull \hbox (badness 2418) in paragraph at lines 238--239
 \T1/ptm/m/n/10 de banda e ar-mazena-mento na rede eram fa-tores que
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--235
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
 
  []
 
 
-Underfull \hbox (badness 2460) in paragraph at lines 236--237
+Underfull \hbox (badness 2460) in paragraph at lines 240--241
 []\T1/ptm/m/n/10 Todos estes testes e es-tu-dos mostraram mel-ho-rias e
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--237
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 241--242
-
- []
-
-
-Underfull \hbox (badness 5771) in paragraph at lines 243--244
-[]\T1/ptm/m/n/10 O pres-su-posto básico por trás do ICN é que a
- []
-
-
-Underfull \hbox (badness 2941) in paragraph at lines 243--244
-\T1/ptm/m/n/10 in-de-pen-den-te-mente da sua lo-cal-iza-ção. Uma im-pli-cação
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
 
  []
 
@@ -1067,11 +1049,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 245--246
  []
 
 
+Underfull \hbox (badness 5771) in paragraph at lines 247--248
+[]\T1/ptm/m/n/10 O pres-su-posto básico por trás do ICN é que a
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 247--248
+\T1/ptm/m/n/10 in-de-pen-den-te-mente da sua lo-cal-iza-ção. Uma im-pli-cação
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 247--248
 
  []
 
-[5] (./icn.bbl)
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
+[]\T1/ptm/m/n/10 O tráfego na \T1/ptm/m/it/10 In-ter-net \T1/ptm/m/n/10 hoje em
+ dia cor-re-sponde
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 255--256
+\T1/ptm/m/n/10 maior-i-tari-a-mente a trans-mis-são de con-teúdo en-tre \T1/ptm
+/m/it/10 hosts\T1/ptm/m/n/10 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
+
+ []
+
+(./icn.bbl)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -1085,10 +1104,10 @@ Before submitting the final camera ready copy, remember to:
 
 [6] (./icn.aux) ) 
 Here is how much of TeX's memory you used:
- 3186 strings out of 493013
- 46045 string characters out of 6139318
- 112396 words of memory out of 5000000
- 6679 multiletter control sequences out of 15000+600000
+ 3187 strings out of 493013
+ 46057 string characters out of 6139318
+ 114413 words of memory out of 5000000
+ 6680 multiletter control sequences out of 15000+600000
  112701 words of font info for 114 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  40i,8n,25p,1129b,291s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1097,7 +1116,7 @@ Here is how much of TeX's memory you used:
 ts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb
 i8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/tex
 mf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on icn.pdf (6 pages, 791002 bytes).
+Output written on icn.pdf (6 pages, 792044 bytes).
 PDF statistics:
  50 PDF objects out of 1000 (max. 8388607)
  30 compressed objects within 1 object stream
