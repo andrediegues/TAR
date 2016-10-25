@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.9.6)  24 OCT 2016 23:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.9.6)  25 OCT 2016 21:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1104,10 +1104,10 @@ Before submitting the final camera ready copy, remember to:
 
 [6] (./icn.aux) ) 
 Here is how much of TeX's memory you used:
- 3187 strings out of 493013
- 46057 string characters out of 6139318
+ 3186 strings out of 493013
+ 46050 string characters out of 6139318
  114413 words of memory out of 5000000
- 6680 multiletter control sequences out of 15000+600000
+ 6679 multiletter control sequences out of 15000+600000
  112701 words of font info for 114 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  40i,8n,25p,1129b,291s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1116,7 +1116,7 @@ Here is how much of TeX's memory you used:
 ts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb
 i8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/tex
 mf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on icn.pdf (6 pages, 792044 bytes).
+Output written on icn.pdf (6 pages, 791974 bytes).
 PDF statistics:
  50 PDF objects out of 1000 (max. 8388607)
  30 compressed objects within 1 object stream
