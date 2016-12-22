@@ -1,0 +1,27 @@
+flintswill@Diegues-HP-15-Notebook-PC:~$ metis_daemon --capacity 0 &
+[1] 2769
+flintswill@Diegues-HP-15-Notebook-PC:~$ CCNx 1.0 Metis Forwarder 1.0.20150516.46f0d1e69b57bb7268b89649808cb679790132ca 2015-05-16T01:02:13.638478
+Copyright 2015 Palo Alto Research Center (PARC), a Xerox company.
+All Rights Reserved. Use is subject to license terms.
+
+            __  __        _    _
+           |  \/  |  ___ | |_ (_) ___
+           | |\/| | / _ \| __|| |/ __|
+           | |  | ||  __/| |_ | |\__ \
+           |_|  |_| \___| \__||_||___/
+
+2016-12-22T14:07:15.892759Z Alert Diegues-HP-15-Notebook-PC Core metis 1695249 [ metis running port 9695 configuration-port 2001 ]
+
+flintswill@Diegues-HP-15-Notebook-PC:~$ parc_publickey create .ccnx_keystore.p12 tarccnx tar 2048 1000
+Created .ccnx_keystore.p12, key length 2048 valid for 1000 days.
+flintswill@Diegues-HP-15-Notebook-PC:~$ ccnx_server --identity .ccnx_keystore.p12 --password tarccnx lci:/date /bin/date &
+[2] 2794
+flintswill@Diegues-HP-15-Notebook-PC:~$ jobs
+[1]-  Running                 metis_daemon --capacity 0 &
+[2]+  Running                 ccnx_server --identity .ccnx_keystore.p12 --password tarccnx lci:/date /bin/date &
+flintswill@Diegues-HP-15-Notebook-PC:~$ 
+flintswill@Diegues-HP-15-Notebook-PC:~$ ccnx_client --identity .ccnx_keystore.p12 --password tarccnx lci:/date
+Thu Dec 22 14:09:30 2016  lci:/date
+Qui Dez 22 14:09:30 WET 2016
+        5 connector_Fwd_Metis_Closer closed fwd_state 0x7f91a40082e0 stats: up { reads 1 wok 1 werr 0 wblk 0 wfull 0 wctrlok 0 wctrlerr 0 }
+        5 connector_Fwd_Metis_Closer closed fwd_state 0x7f91a40082e0 stats: dn { reads 2 wok 1 wctrlok 1 }
