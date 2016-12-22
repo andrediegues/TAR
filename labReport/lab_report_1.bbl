@@ -1,8 +1,23 @@
 \begin{thebibliography}{1}
 
-\bibitem{Smith:2012qr}
-J.~M. Smith and A.~B. Jones.
-\newblock {\em Chemistry}.
-\newblock Publisher, 7th edition, 2012.
+\bibitem{icntar}
+André Diegues and Fábio Teixeira.
+\newblock Information centric networking.
+\newblock 2016.
+
+\bibitem{introccnx}
+Marc Mosko.
+\newblock Ccnx 1.0 protocol introduction.
+\newblock Technical report.
+
+\bibitem{ccnx}
+Marc Mosko, Ignacio Solis, Ersin Uzun, and Christopher Wood.
+\newblock Ccnx 1.0 protocol architecture.
+\newblock Technical report, 2015.
+
+\bibitem{content}
+Fabian Oehlmann.
+\newblock Content-centric networking.
+\newblock {\em Network}, 43, 2013.
 
 \end{thebibliography}

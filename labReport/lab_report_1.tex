@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass{report}
 \usepackage{caption}
 \usepackage{indentfirst}
 \usepackage{float}
@@ -11,44 +11,157 @@
 \usepackage{url}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage{listings}
+\renewcommand\thechapter{\arabic{chapter}}
+\renewcommand\thesection{\arabic{section}}
+\renewcommand\contentsname{Tabela de Conteúdos}
+\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}
 
-\title{\textit{Information-Centric Networking}:\\A Implementação através de \textit{CCNx Distillery}} % Title
+\title{\textit{Information-Centric Networking}:\\A Implementação através de \textit{CCNx Project}} % Title
 
 \author{André Diegues - 201206858 \\ Fábio Teixeira - 201305725\\ % Author name
 		T\'{o}picos Avan\c{c}ados em Redes - CC4037\\
 		Departamento de Ciencia de Computadores\\
 		Faculdade de Ciencias da Universidade do Porto
-}		
+}
 \date{22 de Dezembro de 2016} % Date for the report
 
 \begin{document}
 
 \maketitle % Insert the title, author and date
-
 \tableofcontents
 
-\section{Descrição de Tecnologias}
+\section{\textit{CCNx Project}}
 
-\subsection{\textit{CCNx Distillery}}
+O \textit{CCNx Project} foi desenvolvido pelo PARC\footnote{\url{https://www.parc.com}} e a sua implementação corresponde à definição de \textit{Content-Centric Networking}\cite{content}. A concretização do \textit{CCNx Project} promove uma maneira nova de comunicar na \textit{Internet}, nomeadamente através de conteúdo. \\
 
-\subsection{Metis}
+A arquitetura do \textit{CCNx Project} tem definidos vários módulos, sendo os principais o \textit{naming} do conteúdo, mensagens de rede (\textit{Interest, Content Object e InterestReturn}), \textit{Matching} desses conteúdos, verificação e encaminhamento\cite{ccnx}. \\
+
+O \textit{CCNx Distillery} é a segunda versão do \textit{CCNx Project} que liga estes módulos e monta-os de forma a criar o \textit{software} funcional. A maior alteração desta versão para a sua precedente é que agora os módulos são independentes uns dos outros, desta forma tornou-se mais eficiente. \\
+
+O \textit{CCNx Project} tem implementado os protocolos necessários para os interessados nesta vertente de comunicação \textit{Internet} poderem fazer experiências, pesquisas e desenvolver sobre a tecnologia.\\
+
+O protocolo base utiliza dois tipos de mensagem:
+
+\begin{itemize}
+\item \textit{Interest}\\
+
+Serve para pedir um \textit{Content Object} à rede e é encaminhado através das rotas que conhece.\\
+
+\item \textit{Content Object}\\
+
+Serve para enviar o conteúdo requerido por mensagens \textit{Interest} provenientes da rede. Este conteúdo tem de ser autenticado devidamente pelo utilizador que dispõe o conteúdo.\\
+
+\end{itemize}
+
+Uma rede CCNx contém\cite{introccnx} \textit{Content Producers}, \textit{Content
+Publishers}, \textit{Content Consumers}, \textit{Caches} e \textit{Forwarders}.\\
+
+Como os próprios nomes indicam, um \textit{Content Producer} produz conteúdo, um \textit{Content Publisher} pega nesse conteúdo produzido e transforma-o em \textit{Content Objects} com a autenticidade do \textit{Content Producer} e um \textit{Content Consumer} pede o conteúdo através do protocolo CCNx com uma mensagem \textit{Interest}. O encaminhamento de mensagens é feito através do \textit{Forwarder} enquanto que os \textit{in-network caches} armazenam os \textit{Content Objects} temporariamente (um tempo que é especificado pelo \textit{Content Publisher} no momento que cria o \textit{Content Object}).\\
 
 \section{Objetivos}
 
-
-
-
 %If you have more than one objective, uncomment the below:
 \begin{description}
-\item[First Objective] \hfill \\
-Objective 1 text\cite{Smith:2012qr}.
-\item[Second Objective] \hfill \\
-Objective 2 text
+\item[Entender o estado da arte] \hfill \\
+
+O tráfego na \textit{Internet} hoje em dia corresponde maioritariamente a transmissão de conteúdo entre \textit{hosts}. Apesar da atual arquitetura já ter soluções para este tipo de comunicação não é uma arquitetura que está preparada para que o tráfego de conteúdo cresça como tem vindo a crescer ao longo dos anos e, neste aspeto, uma arquitetura \textit{data-centric} baseada no ICN, como o CCNx, seria muito vantajosa\cite{icntar}.\\
+
+O CCNx procura substituir a arquitetura da \textit{Internet} - um modelo de comunicação \textit{host-to-host} - por uma arquitetura baseada num modelo \textit{data-centric}, tratando o conteúdo como entidade principal na arquitetura das redes. Uma rede com este tipo de arquitetura ganha inúmeras vantagens em relação ao modelo \textit{host-to-host}, nomeadamente, na distribuição de conteúdo, segurança e desenvolvimento de aplicações\cite{icntar}.\\
+
+Gostaríamos, com este trabalho laboratorial, de perceber se a mudança de arquitetura seria algo fácil e praticável ou se, por outro lado, esta tecnologia ainda necessita de mais tempo para se tornar numa opção credível à arquitetura atual.\\
+
+\item[Executar um exemplo simples] \hfill \\
+
+O objetivo fulcral deste trabalho laboratorial é ver como funciona uma rede baseada em ICN, como tal, gostariamos de pôr em prática primeiro um exemplo simples de forma a estudar como se comporta a rede e as suas interações. A realizar este objetivo também concretizámos o objetivo de criar uma rede ICN.\\
+
+
+\item[Aplicação a um caso real] \hfill \\
+
+Objective 3 text\\
 \end{description}
 
 \section{Configuração do Sistema}
 
+A configuração do sistema dividiu-se em duas importantes partes. A primeira foi a instalação do CCNx, já a segunda prendeu-se com o estabelecimento da interação com o módulo que faz o encaminhamento na rede, o Metis. Para isso, guiámo-nos por instruções básicas para instalar o \textit{CCNx Binary Release}\footnote{\url{http://blogs.parc.com/ccnx/howto-install-ccnx-binary-release/}}.\\
+
+\subsection{\textit{CCNx Project}}
+
+Primeiramente, foi necessário fazer um \textit{update} do Ubuntu e instalar algumas bibliotecas:\\
+
+\noindent{\texttt{sudo apt-get update -y \\
+apt-get install uncrustify doxygen -y\\
+apt-get install libssl-dev openssl libevent-dev -y\\}}
+
+Com isto, o \textit{hardware} e o Sistema Operativo ficaram preparados para instalar o \textit{software} do CCNx, distribuído pelo seu domínio oficial (\url{CCNx.org}), na forma de um ficheiro zipado, com extensão .tgz. Para ter acesso ao ficheiro zipado, usou-se o \texttt{curl}:\\
+
+\noindent{\texttt{curl -O http://www.ccnx.org/releases/distillery-ccnx-absinthe-\\1.0.20150516-Linux-x86\_64.tgz\\}}
+
+E para o extrair, o \texttt{tar}:\\
+
+\noindent{\texttt{sudo tar -xzf distillery-ccnx-absinthe-1.0.20150516-Linux-x86\_64.\\tgz -C /\\}}
+
+Para finalizar a instalação do CCNx, bastou correr o distillery-post-install, presente no diretório bin, do ccnx:\\
+
+\noindent{\texttt{/usr/local/ccnx/bin/distillery-post-install\\}}
+
+E, assim, o CCNx ficou pronto para ser utilizado. Para facilitar o tratamento de caminhos pelos ficheiros, entregou-se a algumas variáveis pequenos \textit{paths}, utilizando o \texttt{export}:\\
+
+\noindent{\texttt{export PARC\_HOME=/usr/local/parc\\
+export CCNX\_HOME=/usr/local/ccnx\\
+export PATH=\$PATH:\$PARC\_HOME/bin:\$CCNX\_HOME/bin\\
+export LD\_LIBRARY\_PATH=\$LD\_LIBRARY\_PATH:\$PARC\_HOME/lib:\$CCNX\_HOME\\/lib\\}}
+
+No entanto, mais à frente, optou-se por uma versão otimizada do CCNx, com melhorias de \textit{performance} mas com maiores dificuldades em fazer \textit{debugging}. Para isso, fez-se \textit{download} do seguinte \textit{link}:\\
+
+\noindent{\texttt{wget http://ccnx.org/releases/distillery-ccnx-absinthe-\\1.0.20150516-Linux-x86\_64.optimized.tgz\\}}
+
+Sendo que posteriormente, foi preciso extraí-lo:\\
+
+\noindent{\texttt{sudo tar -xzf distillery-ccnx-absinthe-1.0.20150516-Linux-x86\_64.\\optimized.tgz -C /\\}}
+
+E novamente, para instalar, recorrer ao mesmo ficheiro:\\
+
+\noindent{\texttt{/usr/local/ccnx/bin/distillery-post-install\\}}
+
+Uma vez feito isto, foi tempo de correr o \textit{daemon} responsável por fazer o \textit{forwarding} do CCNx, com \textit{root} iniciado, que iria depois ficar em \textit{background}:\\
+
+\subsection{Metis}
+
+ \noindent{\texttt{wget http://glaros.dtc.umn.edu/gkhome/fetch/sw/metis/metis-5.1.0.tar.gz\\
+     gunzip metis-5.1.0.tar.gz \\
+     tar -xvf metis-5.1.0.tar \\
+     cd metis-5.1.0\\
+     apt-get install cmake\\
+     apt-get update \&\& apt-get install build-essential\\
+     make config\\
+     make\\
+     make install\\}}
+
+
 \section{Dados Experimentais}
+
+\subsection{Exemplo simples}
+
+\noindent{\texttt{metis\_daemon --capacity 0 \&\\}}
+
+O passo seguinte foi criar uma chave, com um limite de 2048 bits e uma validade de 1000 dias, para depois usar nos pedidos:\\
+
+\noindent{\texttt{parc\_publickey create .ccnx\_keystore.p12 <password> <username> \\2048 1000\\}}
+
+Neste caso foi necessário substituir os campos \texttt{<password>} e \texttt{<username>} por algo específico, característico do utilizador. Para que um \textit{Publisher} colocasse algo na rede, fez-se:\\
+
+\noindent{\texttt{ccnx\_server --identity .ccnx\_keystore.p12 --password <password> \\lci:/date /bin/date \&\\}}
+
+Sendo que o processo também ficou em \textit{background}. Representativamente, o que está anexado ao "\texttt{lci:}", simboliza o nome do ficheiro que fica na rede, e o que vem depois, a localização do ficheiro no diretório corrente. Para um \textit{Consumer} pedir conteúdo na rede (neste caso o \texttt{/date}), fez-se:\\
+
+\noindent{\texttt{ccnx\_client --identity .ccnx\_keystore.p12 --password <password> \\lci:/date\\}}
+
+Uma vez que os processos do ccnx\_server e do metis ficaram em \textit{background}, é gerada imediatamente uma mensagem sempre que um \textit{Consumer} pede por conteúdo na rede. Para ver (e listar) a tabela de \textit{routing} usada pelo \textit{daemon}, fez-se:\\
+
+\noindent{\texttt{ccnx\_client --identity .ccnx\_keystore.p12 --password <password> \\lci:/date\\}
+
+\subsection{Aplicação a um caso real}
 
 \section{Resultados e Conclusões}
 

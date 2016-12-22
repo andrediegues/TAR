@@ -3,44 +3,49 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: lab_report_1.aux
 The style file: plain.bst
 Database file #1: sample.bib
-You've used 1 entry,
+Warning--empty journal in icntar
+Warning--empty institution in introccnx
+Warning--empty year in introccnx
+Warning--empty institution in ccnx
+You've used 4 entries,
             2118 wiz_defined-function locations,
-            504 strings with 4081 characters,
-and the built_in function-call counts, 279 in all, are:
-= -- 24
-> -- 13
+            514 strings with 4297 characters,
+and the built_in function-call counts, 960 in all, are:
+= -- 89
+> -- 50
 < -- 0
-+ -- 5
-- -- 4
-* -- 16
-:= -- 54
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 5
++ -- 20
+- -- 16
+* -- 56
+:= -- 188
+add.period$ -- 12
+call.type$ -- 4
+change.case$ -- 22
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 12
-empty$ -- 23
-format.name$ -- 4
-if$ -- 56
+cite$ -- 8
+duplicate$ -- 36
+empty$ -- 65
+format.name$ -- 16
+if$ -- 182
 int.to.chr$ -- 0
-int.to.str$ -- 1
+int.to.str$ -- 4
 missing$ -- 2
-newline$ -- 8
-num.names$ -- 2
-pop$ -- 8
+newline$ -- 23
+num.names$ -- 8
+pop$ -- 22
 preamble$ -- 1
-purify$ -- 4
+purify$ -- 16
 quote$ -- 0
-skip$ -- 7
+skip$ -- 25
 stack$ -- 0
-substring$ -- 5
+substring$ -- 20
 swap$ -- 1
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2
-warning$ -- 0
-while$ -- 2
-width$ -- 2
-write$ -- 13
+type$ -- 16
+warning$ -- 4
+while$ -- 8
+width$ -- 5
+write$ -- 41
+(There were 4 warnings)

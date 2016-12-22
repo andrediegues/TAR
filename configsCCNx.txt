@@ -1,0 +1,299 @@
+    4  curl -O http://www.ccnx.org/releases/distillery-ccnx-absinthe-1.0.20150516-Linux-x86_64.tgz
+    5  tar -xzf distillery-ccnx-absinthe-1.0.20150516-Linux-x86_64.tgz 
+    6  find /usr/local/ccnx/
+    7  find distillery
+    8  find | grep distillery
+    9  ls
+   10  ./usr/local/ccnx/bin/distillery-post-install 
+   11  ls
+   12  /usr/local/ccnx/bin/distillery-post-install 
+   13  ./usr/local/ccnx/bin/distillery-post-install 
+   14  clear
+   15  ./usr/local/ccnx/bin/distillery-post-install 
+   16  emacs usr/local/ccnx/bin/distillery-post-install 
+   17  ./usr/local/ccnx/bin/distillery-post-install 
+   18  emacs usr/local/ccnx/bin/distillery-post-install 
+   19  ./usr/local/ccnx/bin/distillery-post-install 
+   20  emacs usr/local/ccnx/bin/distillery-post-install 
+   21  ./usr/local/ccnx/bin/distillery-post-install 
+   22  emacs usr/local/ccnx/bin/distillery-post-install 
+   23  ./usr/local/ccnx/bin/distillery-post-install 
+   24  sudo wget https://headerfile-free-cyclomatic-complexity-analyzer.googlecode.com/files/hfcca.py -O /usr/local/parc/lib/python2.7/site-packages/longbow/hfcca.py
+   25  sudo wget https://headerfile-free-cyclomatic-complexity-analyzer.googlecode.com/files/hfcca.py -O ./usr/local/parc/lib/python2.7/site-packages/longbow/hfcca.py
+   26  emacs usr/local/ccnx/bin/distillery-post-install 
+   27  emacs usr/local/parc/bin/parc-post-install 
+   28  apt-get install python-2.7
+   29  apt-get install python
+   30  tar -xfz ~/Downloads/hfcca-1.10.2.tar.gz
+   31  tar -xvf ~/Downloads/hfcca-1.10.2.tar.gz
+   32  tar -xvf ../../../../Downloads/hfcca-1.10.2.tar.gz 
+   33  emacs usr/local/parc/bin/parc-post-install 
+   34  ls
+   35  cd hfcca-1.10.2/
+   36  ls
+   37* 
+   38  find hfcca
+   39  emacs usr/local/parc/bin/parc-post-install 
+   40  cd ..
+   41  emacs usr/local/parc/bin/parc-post-install 
+   42  bg
+   43  find hfcca*.py
+   44  find hfcca
+   45  find hfcca-1.10.2/
+   46  find hfcca-1.10.2/ | grep hfcca
+   47  find hfcca-1.10.2/ | grep hfcca.py
+   48  cd hfcca-1.10.2/
+   49  ./hfcca
+   50  pwd
+   51  cd ..
+   52  history 
+   53  ./usr/local/ccnx/bin/distillery-post-install 
+   54  chmod 777 hfcca-1.10.2/hfcca
+   55  ./usr/local/ccnx/bin/distillery-post-install 
+   56  cd ..
+   57  export PARC_HOME=/usr/local/parc
+   58  export CCNX_HOME=/usr/local/ccnx
+   59  export PATH=$PATH:$PARC_HOME/bin:$CCNX_HOME/bin
+   60  export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$PARC_HOME/lib:$CCNX_HOME/lib
+   61  apt-get update -y
+   62  apt-get install -y build-essential
+   63  export PARC_HOME=/usr/local/parc
+   64  export CCNX_HOME=/usr/local/ccnx
+   65  export PATH=$PATH:$PARC_HOME/bin:$CCNX_HOME/bin
+   66  export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$PARC_HOME/lib:$CCNX_HOME/lib
+   67  curl -O http://www.ccnx.org/releases/distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tgz
+   68  sudo tar –xzf distillery–ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tgz -C /
+   69  sudo tar –xzf distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tgz -C /
+   70  sudo tar –xzf distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tgz 
+   71  tar –xzf distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tgz 
+   72  tar –xfv distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tgz 
+   73  tar -xzf distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tgz 
+   74  ls
+   75  tar distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tgz 
+   76  tar distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tgz -C /
+   77  tar -xfz distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tgz -C /
+   78  tar -xzf distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tgz -C /
+   79  sudo tar –xzf distillery–ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tgz -C /
+   80  sudo tar -xzf distillery–ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tgz -C /
+   81  ls
+   82  sudo tar -xzf distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tgz -C /
+   83  gunzip distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tgz 
+   84  sudo tar -xvf distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tgz -C /
+   85  mv distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tgz distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tar
+   86  sudo tar -xvf distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tgz -C /
+   87  sudo tar -xvf distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tar -C /
+   88  mv distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tar distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tgz
+   89  sudo tar -xvf distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tar -C /
+   90  sudo tar -xvf distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tgz -C /
+   91  sudo tar -xvzf distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tgz -C /
+   92  gunzip -c distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tgz | tar xvf 
+   93  tar -xvzf distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tgz -C /
+   94  gzip -dc distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tgz | tar xvf -
+   95  cp distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tgz distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tar 
+   96  tar -xvzf distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tar -C /
+   97  tar -xvf distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tar -C /
+   98  tar distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tar -C /
+   99  tar -x distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tar -C /
+  100  tar -xf distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tar -C /
+  101  cp distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tgz distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tar.gz 
+  102  tar -xf distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tar.gz -C /
+  103  chmod 777 distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tgz 
+  104  gzip -dc distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tgz | tar xvf -
+  105  tar -xvzf distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tgz -C /
+  106  rm distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tgz 
+  107  tar –xzf distillery–ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tgz -C /
+  108  tar -xzf ../../../Downloads/distillery-ccnx-absinthe-1.0-20150516-Linux-x86_64.optimized.tgz -C /
+  109  tar -xzf ../../../Downloads/distillery-ccnx-absinthe-1.0.20150516-Linux-x86_64.optimized.tgz -C /
+  110  ls
+  111  tar -xzf ../../../Downloads/distillery-ccnx-absinthe-1.0.20150516-Linux-x86_64.optimized.tgz -C .
+  112  ls
+  113  tar -xzf ../../../Downloads/distillery-ccnx-absinthe-1.0.20150516-Linux-x86_64.optimized.tgz 
+  114  ls
+  115  ls ~/Downloads
+  116  ls /home/flintswill/Downloads
+  117  tar -xzf /home/flintswill/Downloads/distillery-ccnx-absinthe-1.0.20150516-Linux-x86_64.optimized.tgz  
+  118  ls
+  119  ls usr/
+  120  ./usr/local/ccnx/bin/distillery-post-install 
+  121  `metis_daemon -capacity 0 &`
+  122  metis_daemon -capacity 0 &
+  123  parc_publickey create .ccnx_keystore.p12 <password> <username> 2048 1000
+  124  parc_publickey create .ccnx_keystore.p12 <tarccnx> <ccnx> 2048 1000
+  125  parc_publickey create .ccnx_keystore.p12 tarccnx ccnx 2048 1000
+  126  ccnx_server –identity .ccnx_keystore.p12 –password 1234 lci:/date /bin/date &
+  127  ccnx-server --identity <file> --password <password> lci:/ccn-name command-to-execute
+  128  ccnx-server --identity ccnx --password tarccnx lci:/ccn-name command-to-execute
+  129  ccnx_server -identity .ccnx_keystore.p12 -password 1234 lci:/date /bin/date &
+  130  ccnx-server -identity ccnx -password tarccnx lci:/ccn-name command-to-execute
+  131  ccnx_server -identity .ccnx_keystore.p12 -password 1234 lci:/date /bin/date &
+  132  ccnx
+  133  ccnx_server -identity .ccnx_keystore.p12 -password 1234 lci:/date /bin/date &
+  134  --identity ccnx --password tarccnx
+  135  ccnx_server -identity .ccnx_keystore.p12 -password 1234 lci:/date /bin/date &
+  136  ccnx-server --identity .ccnx_keystore.p12 --password 1234 lci:/date /bin/datccnx-server --identity .ccnx_keystore.p12 --password 1234 lci:/date /bin/date
+  137  ccnx_server --identity .ccnx_keystore.p12 --password 1234 lci:/date /bin/date &
+  138  ccnx_server --identity .ccnx_keystore.p12 --password tarccnx lci:/date /bin/date &
+  139  jobs
+  140  ccnx_client –identity .ccnx_keystore.p12 –password 1234 lci:/date
+  141  ccnx_client --identity .ccnx_keystore.p12 --password tarccnx lci:/date
+  142  bg
+  143  metis_control --keystore .ccnx_keystore.p12 --password tarccnx list routes
+  144  metis_control -help
+  145  fg
+  146  ccnx_client --identity .ccnx_keystore.p12 --password tarccnx lci:/date
+  147  jobs
+  148  ccnx_client --identity .ccnx_keystore.p12 --password tarccnx lci:/date
+  149  metis_daemon -capacity 0 &
+  150  metis_daemon --objectStoreSize 0 &
+  151  metis_daemon --capacity 0 &
+  152  jobs
+  153  ccnx_client --identity .ccnx_keystore.p12 --password tarccnx lci:/date
+  154  kill 1
+  155  ccnx_server --identity .ccnx_keystore.p12 --password tarccnx lci:/date /bin/date &
+  156  ccnx_client --identity .ccnx_keystore.p12 --password tarccnx lci:/date
+  157  jobs
+  158  kill 1
+  159  ls
+  160  jobs
+  161  fg 1
+  162  fg 3
+  163  ccnx_server --identity .ccnx_keystore.p12 --password tarccnx lci:/readme README.md &
+  164  jobs
+  165  ccnx_client --identity .ccnx_keystore.p12 --password tarccnx lci:/readme
+  166  ccnx_client --identity .ccnx_keystore.p12 --password tarccnx lci:/readmefg
+  167  fg
+  168  ccnx_server --help
+  169  ccnx_server --identity .ccnx_keystore.p12 --password tarccnx lci:/readme ./README.md &
+  170  ccnx_client --identity .ccnx_keystore.p12 --password tarccnx lci:/readme
+  171  fg
+  172  ccnx_server --identity .ccnx_keystore.p12 --password tarccnx lci:/readme /home/flintswill/Downloads/
+  173  ccnx_server --identity .ccnx_keystore.p12 --password tarccnx lci:/pdf /home/flintswill/Downloads/Lista_universidades_vagas_FINAL_FCUP.pdf 
+  174  bg
+  175  ccnx_client --identity .ccnx_keystore.p12 --password tarccnx lci:/pdf
+  176  fg
+  177  history 
+  178  ccnx_server --identity .ccnx_keystore.p12 --password tarccnx lci:/date /bin/date &
+  179  ccnx_client --identity .ccnx_keystore.p12 --password tarccnx lci:/date
+  180  chmod 777 /home/flintswill/Downloads/Lista_universidades_vagas_FINAL_FCUP.pdf 
+  181  fg
+  182  ccnx_server --identity .ccnx_keystore.p12 --password tarccnx lci:/pdf /home/flintswill/Downloads/Lista_universidades_vagas_FINAL_FCUP.pdf &
+  183  ccnx_client --identity .ccnx_keystore.p12 --password tarccnx lci:/pdf
+  184  fg
+  185  ccnx_server --identity .ccnx_keystore.p12 --password tarccnx lci:/ola metis-5.1.0/ola.txt 
+  186  bg
+  187  ccnx_client --identity .ccnx_keystore.p12 --password tarccnx lci:/ola
+  188  fg
+  189  ccnx_server --identity .ccnx_keystore.p12 --password tarccnx lci:/ola metis-5.1.0/ola.txt 
+  190  bg
+  191  ccnx_client --identity .ccnx_keystore.p12 --password tarccnx lci:/ola
+  192  fg
+  193  history > ../configs.txt
+
+http://blogs.parc.com/ccnx/howto-install-ccnx-binary-release/
+
+
+
+##########VAGRANT#################
+
+
+
+    1* apt-get install -y dev openssl dev uncrustify -y
+    2  apt-get install -y libssl-dev openssl libevent-dev uncrutify -y
+    3  apt-get install -y libssl-dev openssl libevent-dev uncrustify -y
+    4  apt-get install doxygen -y 
+    5  curl -O http://www.ccnx.org/releases/distillery-ccnx-absinthe-1.0-20150501-Linux-x86_64.tgz
+    6  tar -xzf distillery-ccnx-absinthe-1.0-20150501-Linux-x86_64.tgz -C / 
+    7  /usr/local/ccnx/bin/distillery-post-install 
+    8  ./.ccnx/
+    9  metis_daemon --capacity 0 &
+   10  sudo metis_daemon --capacity 0 &
+   11  wget http://glaros.dtc.umn.edu/gkhome/fetch/sw/metis/metis-5.1.0.tar.gz
+   12  gunzip metis-5.1.0.tar.gz 
+   13  tar -xvf metis-5.1.0.tar 
+   14  less metis-5.1.0/Install.txt 
+   15  cd metis-5.1.0
+   16  make
+   17  make config
+   18  apt-get install cmake
+   19  make config
+   20  ls
+   21  cat CMakeLists.txt 
+   22  ls
+   23  vi Makefile 
+   24  make config
+   25  apt-get update && apt-get install build-essential
+   26  make config
+   27  make
+   28  cat Install.txt 
+   29  cd ..
+   30  metis_daemon --capacity 0 &
+   31  metis-5.1.0/
+   32  ls
+   33  cd metis-5.1.0
+   34  make install
+   35  metis_daemon --capacity 0 &
+   36  cd ..
+   37  ls
+   38  metis_daemon --capacity 0 &
+   39  cd metis-5.1.0
+   40  ls
+   41  cat Makefile 
+   42  ls
+   43  find build/
+   44  make
+   45  make config
+   46  make
+   47  metis_daemon --capacity 0 &
+   48  systemctl start metis
+   49  cd
+   50  cd /home/vagrant/
+   51  sudo systemctl status metis
+   52  /etc/init.d/networking .ccnx/.ccnx_keystore.p12 
+   53  .ccnx/
+   54  cd .ccnx/
+   55  ls
+   56  cd ..
+   57  ls
+   58  ls -a
+   59* 
+   60  cat .ccnx/.ccnx_keystore.p12 
+   61  cc 
+   62  ls
+   63  history 
+   64  cd /usr/local/ccnx/bin/
+   65  ls
+   66  metis_daemon --capacity 0 &
+   67  cat metis_daemon 
+   68  metis_daemon
+   69  ./metis_daemon 
+   70  ./metis_daemon --capacity 0 & 
+   71  ls
+   72  ./ccnx-post-install 
+   73  cd ..
+   74  ls
+   75  less README 
+   76  cd /
+   77  less usr/local/ccnx/README 
+   78  sudo tar -xzf /home/vagrant/distillery-ccnx-absinthe-1.0.20150516-Linux-x86_64.tgz 
+   79  less usr/local/ccnx/README 
+   80  /usr/local/ccnx/bin/distillery-post-install
+   81  less usr/local/ccnx/README 
+   82  export PATH=$PATH:/usr/local/ccnx/bin:/usr/local/parc/bin
+   83  metis_daemon 
+   84  metis_daemon --capacity 0 &
+   85  fuser -k 80/tcp
+   86  metis_daemon --capacity 0 &
+   87  systemctl status metis
+   88* service 
+   89  lsof -i :8000
+   90  sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+   91  SocketServer.TCPServer.allow_reuse_address = True
+   92  metis_daemon --capacity 0 &
+   93  sudo netstat -lanp
+   94  parc_publickey create .ccnx_keystore.p12 tarccnx tar 2048 1000
+   95  ccnx_server --identity .ccnx_keystore.p12 --password tarccnx lci:/date /bin/date &
+   96  jobs
+   97  ccnx_client --identity .ccnx_keystore.p12 --password tarccnx lci:/date 
+   98  metis_keystore .ccnx_keystore.password 1234 list routesp12 control 
+   99  metis_control --keystore .ccnx_keystore.p12 --password tarccnx list routes 
+
